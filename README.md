@@ -14,4 +14,4 @@ npm start
 /** This probably runs on Port 3000 */
 ```
 
-Open your browser and visit localhost:3000
+Open your browser and visit http://localhost:3000/
