@@ -6,7 +6,7 @@ const App = () => {
   const [issues, setIssues] = React.useState([]);
   const [isLoading, setIsLoading] = React.useState(true);
   React.useEffect(() => {
-    fetch('http://3.217.34.129:3001/api/issues')
+    fetch('http://localhost:3001/api/issues')
       .then(res => res.json())
       .then(data => {
         setIssues(data)
